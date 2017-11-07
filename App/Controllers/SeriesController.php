@@ -14,6 +14,7 @@ class SeriesController
 
     public function episode($slug , $id)
     {
-      //  var_dump($_GET);return "Slug : {$slug} , id : {$id}";
+
+        return "Slug : {$slug} , id : {$id}";
     }
 }
