@@ -1,4 +1,4 @@
-<?php namespace App\Controllers\Admin;
+<?php namespace App\Controllers;
 
 class SeriesController
 {
@@ -14,6 +14,6 @@ class SeriesController
 
     public function episode($slug , $id)
     {
-        return "Episode Page";
+      //  var_dump($_GET);return "Slug : {$slug} , id : {$id}";
     }
 }
