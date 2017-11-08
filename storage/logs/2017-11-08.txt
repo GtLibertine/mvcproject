@@ -1,0 +1,32 @@
+[08-Nov-2017 11:45:53 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('article')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
+
+[08-Nov-2017 12:06:15 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('article')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
+
+[08-Nov-2017 12:07:57 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('article')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
+
+[08-Nov-2017 12:07:57 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('article')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
+

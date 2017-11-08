@@ -35,12 +35,14 @@ class Router
         foreach ($this->routes as $route => $params) {
             if(preg_match($route , $url , $matches)) {
 
-                foreach ($matches as $key => $match) {
 
-                    if(is_string($key)) {
-                        $params["params"][$key] = $match;
+                    foreach ($matches as $key => $match) {
+
+                        if(is_string($key)) {
+                            $params["params"][$key] = $match;
+                        }
                     }
-                }
+
                 $this->params = $params;
                 return true;
             }
@@ -50,30 +52,28 @@ class Router
 
     public function dispatch($url)
     {
-          $url =  $this->removeVariableOfQueryString($url);
-
+        $url = $this->removeVariableOfQueryString($url);
 
         if($this->match($url)) {
-
             $controller = $this->params['controller'];
             $controller =  $this->getNameSpace() . $controller;
 
             if(class_exists($controller)) {
-                     $controller_object = new $controller;
-                     $method = $this->params['method'];
-                     if(is_callable([$controller_object,$method])){
-                       //  var_dump($this->params["params"]);
-                         echo call_user_func_array([$controller_object ,$method],$this->params["params"]);
-                         //echo $controller_object->$method($this->params['slug'],$this->params['id']);
-                     }else{
-                         echo  "no match";
-                     }
-            } else {
-                die("Controller class {$controller} not found");
-            }
+                $controller_object = new $controller();
 
+                $method = $this->params['method'];
+
+                if(is_callable([$controller_object , $method])) {
+
+                    echo call_user_func_array([$controller_object , $method] ,array_key_exists('params' , $this->params)? $this->params["params"] : $this->params);
+                } else {
+                    throw new \Exception("Method {$method} (in controller {$controller}) not found");
+                }
+            } else {
+                throw new \Exception("Controller class {$controller} not found");
+            }
         } else {
-            die("no route matched.");
+            throw new \Exception("no route matched.",404);
         }
     }
 
