@@ -21,9 +21,9 @@ class View
     public static function renderTemplate($template , $args=[]){
 
         $view   =  realpath(__DIR__."/../App/Views/");
-        $cash   =   realpath(__DIR__."/../storage/views");
+        $cache   =   realpath(__DIR__."/../storage/views");
 
-        $blade = new Blade($view,$cash);
+        $blade = new Blade($view,$cache);
         return $blade->view()->make($template,$args)->render();
 
     }
