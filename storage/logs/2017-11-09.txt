@@ -1,0 +1,106 @@
+[09-Nov-2017 09:40:34 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('favicon.ico')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
+
+[09-Nov-2017 09:40:34 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('favicon.ico')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
+
+[09-Nov-2017 09:54:50 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('seried/a/episod...')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
+
+[09-Nov-2017 09:55:09 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'ErrorException'</p>
+<p>Message : 'Non-static method Core\View::render() should not be called statically'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php(20): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 [internal function]: App\Controllers\SeriesController->episode('a', '2')
+#2 C:\xampp\htdocs\mvcproject\Core\Router.php(68): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('series/a/episod...')
+#4 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php' on line 20</p>
+
+[09-Nov-2017 09:56:09 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'ErrorException'</p>
+<p>Message : 'Non-static method Core\View::render() should not be called statically'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php(20): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 [internal function]: App\Controllers\SeriesController->episode('a', '2')
+#2 C:\xampp\htdocs\mvcproject\Core\Router.php(68): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('series/a/episod...')
+#4 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php' on line 20</p>
+
+[09-Nov-2017 09:56:41 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'ErrorException'</p>
+<p>Message : 'Non-static method Core\View::render() should not be called statically'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php(20): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 [internal function]: App\Controllers\SeriesController->episode('a', '2')
+#2 C:\xampp\htdocs\mvcproject\Core\Router.php(68): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('series/a/episod...')
+#4 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php' on line 20</p>
+
+[09-Nov-2017 09:56:42 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'ErrorException'</p>
+<p>Message : 'Non-static method Core\View::render() should not be called statically'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php(20): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 [internal function]: App\Controllers\SeriesController->episode('a', '2')
+#2 C:\xampp\htdocs\mvcproject\Core\Router.php(68): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('series/a/episod...')
+#4 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php' on line 20</p>
+
+[09-Nov-2017 10:04:20 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('favicon.ico')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
+
+[09-Nov-2017 10:04:41 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'ErrorException'</p>
+<p>Message : 'Non-static method Core\View::render() should not be called statically'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php(20): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 [internal function]: App\Controllers\SeriesController->episode('build-a-api-wit...', '0')
+#2 C:\xampp\htdocs\mvcproject\Core\Router.php(68): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('series/build-a-...')
+#4 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php' on line 20</p>
+
+[09-Nov-2017 10:09:12 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'ErrorException'</p>
+<p>Message : 'Non-static method Core\View::render() should not be called statically'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php(20): Core\Error::errorHandler(8192, 'Non-static meth...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 [internal function]: App\Controllers\SeriesController->episode('learn-mvc-in-ph...', '13')
+#2 C:\xampp\htdocs\mvcproject\Core\Router.php(68): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('series/learn-mv...')
+#4 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php' on line 20</p>
+
+[09-Nov-2017 10:36:58 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('l/learn-mvc-in-...')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
+

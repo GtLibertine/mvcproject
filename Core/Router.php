@@ -64,8 +64,8 @@ class Router
                 $method = $this->params['method'];
 
                 if(is_callable([$controller_object , $method])) {
-
-                    echo call_user_func_array([$controller_object , $method] ,array_key_exists('params' , $this->params)? $this->params["params"] : $this->params);
+                    $this->params['params'] = isset($this->params['params']) ? $this->params['params'] : [];
+                    echo call_user_func_array([$controller_object , $method] ,$this->params["params"]);
                 } else {
                     throw new \Exception("Method {$method} (in controller {$controller}) not found");
                 }
