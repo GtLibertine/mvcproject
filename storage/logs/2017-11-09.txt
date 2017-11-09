@@ -104,3 +104,82 @@
 #1 {main}</pre></p>
 <p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
 
+[09-Nov-2017 13:45:42 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('f')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
+
+[09-Nov-2017 13:45:42 Europe/Berlin] PHP Fatal error:  Uncaught InvalidArgumentException: View [errors.404] not found. in C:\xampp\htdocs\mvcproject\vendor\illuminate\view\FileViewFinder.php:137
+Stack trace:
+#0 C:\xampp\htdocs\mvcproject\vendor\illuminate\view\FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('errors.404', Array)
+#1 C:\xampp\htdocs\mvcproject\vendor\illuminate\view\Factory.php(128): Illuminate\View\FileViewFinder->find('errors.404')
+#2 C:\xampp\htdocs\mvcproject\Core\View.php(27): Illuminate\View\Factory->make('errors.404', Array)
+#3 C:\xampp\htdocs\mvcproject\Core\Error.php(46): Core\View::renderTemplate('errors/404')
+#4 [internal function]: Core\Error::exceptionHandler(Object(Exception))
+#5 {main}
+  thrown in C:\xampp\htdocs\mvcproject\vendor\illuminate\view\FileViewFinder.php on line 137
+[09-Nov-2017 13:48:03 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'InvalidArgumentException'</p>
+<p>Message : 'View [series.episode] not found.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\vendor\illuminate\view\FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('series.episode', Array)
+#1 C:\xampp\htdocs\mvcproject\vendor\illuminate\view\Factory.php(128): Illuminate\View\FileViewFinder->find('series.episode')
+#2 C:\xampp\htdocs\mvcproject\Core\View.php(27): Illuminate\View\Factory->make('series.episode', Array)
+#3 C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php(23): Core\View::renderTemplate('series.episode', Array)
+#4 [internal function]: App\Controllers\SeriesController->episode('learn-mvc-in-ph...', '13')
+#5 C:\xampp\htdocs\mvcproject\Core\Router.php(68): call_user_func_array(Array, Array)
+#6 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('series/learn-mv...')
+#7 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\vendor\illuminate\view\FileViewFinder.php' on line 137</p>
+
+[09-Nov-2017 13:48:03 Europe/Berlin] PHP Fatal error:  Uncaught InvalidArgumentException: View [errors.500] not found. in C:\xampp\htdocs\mvcproject\vendor\illuminate\view\FileViewFinder.php:137
+Stack trace:
+#0 C:\xampp\htdocs\mvcproject\vendor\illuminate\view\FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths('errors.500', Array)
+#1 C:\xampp\htdocs\mvcproject\vendor\illuminate\view\Factory.php(128): Illuminate\View\FileViewFinder->find('errors.500')
+#2 C:\xampp\htdocs\mvcproject\Core\View.php(27): Illuminate\View\Factory->make('errors.500', Array)
+#3 C:\xampp\htdocs\mvcproject\Core\Error.php(46): Core\View::renderTemplate('errors/500')
+#4 [internal function]: Core\Error::exceptionHandler(Object(InvalidArgumentException))
+#5 {main}
+  thrown in C:\xampp\htdocs\mvcproject\vendor\illuminate\view\FileViewFinder.php on line 137
+[09-Nov-2017 13:48:41 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'InvalidArgumentException'</p>
+<p>Message : 'Please provide a valid cache path.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\vendor\philo\laravel-blade\src\Blade.php(136): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false)
+#1 C:\xampp\htdocs\mvcproject\vendor\illuminate\container\Container.php(726): Philo\Blade\Blade->Philo\Blade\{closure}(Object(Illuminate\Container\Container), Array)
+#2 C:\xampp\htdocs\mvcproject\vendor\illuminate\container\Container.php(608): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\xampp\htdocs\mvcproject\vendor\illuminate\container\Container.php(575): Illuminate\Container\Container->resolve('blade.compiler')
+#4 C:\xampp\htdocs\mvcproject\vendor\illuminate\container\Container.php(1172): Illuminate\Container\Container->make('blade.compiler')
+#5 C:\xampp\htdocs\mvcproject\vendor\philo\laravel-blade\src\Blade.php(141): Illuminate\Container\Container->offsetGet('blade.compiler')
+#6 [internal function]: Philo\Blade\Blade->Philo\Blade\{closure}()
+#7 C:\xampp\htdocs\mvcproject\vendor\illuminate\view\Engines\EngineResolver.php(54): call_user_func(Object(Closure))
+#8 C:\xampp\htdocs\mvcproject\vendor\illuminate\view\Factory.php(263): Illuminate\View\Engines\EngineResolver->resolve('blade')
+#9 C:\xampp\htdocs\mvcproject\vendor\illuminate\view\Factory.php(227): Illuminate\View\Factory->getEngineFromPath('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\mvcproject\vendor\illuminate\view\Factory.php(136): Illuminate\View\Factory->viewInstance('series.episode', 'C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\mvcproject\Core\View.php(27): Illuminate\View\Factory->make('series.episode', Array)
+#12 C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php(23): Core\View::renderTemplate('series.episode', Array)
+#13 [internal function]: App\Controllers\SeriesController->episode('learn-mvc-in-ph...', '13')
+#14 C:\xampp\htdocs\mvcproject\Core\Router.php(68): call_user_func_array(Array, Array)
+#15 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('series/learn-mv...')
+#16 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\vendor\illuminate\view\Compilers\Compiler.php' on line 36</p>
+
+[09-Nov-2017 13:48:41 Europe/Berlin] PHP Fatal error:  Uncaught InvalidArgumentException: Please provide a valid cache path. in C:\xampp\htdocs\mvcproject\vendor\illuminate\view\Compilers\Compiler.php:36
+Stack trace:
+#0 C:\xampp\htdocs\mvcproject\vendor\philo\laravel-blade\src\Blade.php(136): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), false)
+#1 C:\xampp\htdocs\mvcproject\vendor\illuminate\container\Container.php(726): Philo\Blade\Blade->Philo\Blade\{closure}(Object(Illuminate\Container\Container), Array)
+#2 C:\xampp\htdocs\mvcproject\vendor\illuminate\container\Container.php(608): Illuminate\Container\Container->build(Object(Closure))
+#3 C:\xampp\htdocs\mvcproject\vendor\illuminate\container\Container.php(575): Illuminate\Container\Container->resolve('blade.compiler')
+#4 C:\xampp\htdocs\mvcproject\vendor\illuminate\container\Container.php(1172): Illuminate\Container\Container->make('blade.compiler')
+#5 C:\xampp\htdocs\mvcproject\vendor\philo\laravel-blade\src\Blade.php(141): Illuminate\Container\Container->offsetGet( in C:\xampp\htdocs\mvcproject\vendor\illuminate\view\Compilers\Compiler.php on line 36
+[09-Nov-2017 13:49:12 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('sefdries/learns...')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
+

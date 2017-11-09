@@ -43,7 +43,7 @@ class Error
 
             error_log($message);
 
-            echo View::render("errors/{$code}");
+            echo View::renderTemplate("errors/{$code}");
 
         }
 

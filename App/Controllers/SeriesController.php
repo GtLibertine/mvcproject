@@ -17,9 +17,10 @@ class SeriesController extends Controller
 
     public function episode($slug , $id)
     {
-        return View::render("series/episode",[
-            'slug' =>$slug,
-            'id' => $id
+        $users = ['hesam' ,'ali' , 'reza' , 'mohammad'];
+
+        return View::renderTemplate("series.episode" , [
+            'users' => $users
         ]);
 
         //return "Slug : {$slug} , id : {$id}";

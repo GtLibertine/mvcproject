@@ -1,5 +1,7 @@
 <?php namespace Core;
 
+use Philo\Blade\Blade;
+
 class View
 {
     public static function render($view ,$args = []){
@@ -16,4 +18,13 @@ class View
 
     }
 
+    public static function renderTemplate($template , $args=[]){
+
+        $view   =  realpath(__DIR__."/../App/Views/");
+        $cash   =   realpath(__DIR__."/../storage/views");
+
+        $blade = new Blade($view,$cash);
+        return $blade->view()->make($template,$args)->render();
+
+    }
 }
