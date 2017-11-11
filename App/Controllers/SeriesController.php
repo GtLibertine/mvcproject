@@ -1,5 +1,6 @@
 <?php namespace App\Controllers;
 
+use App\Models\User;
 use Core\Controller;
 use Core\View;
 
@@ -18,6 +19,7 @@ class SeriesController extends Controller
     public function episode($slug , $id)
     {
         $users = ['hesam' ,'ali' , 'reza' , 'mohammad'];
+
 
         return View::renderTemplate("series.episode" , [
             'users' => $users

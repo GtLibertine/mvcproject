@@ -1,0 +1,48 @@
+[11-Nov-2017 07:16:18 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Exception'</p>
+<p>Message : 'no route matched.'</p>
+<p>Stack trace: <pre>#0 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('sefdries/learns...')
+#1 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\Core\Router.php' on line 76</p>
+
+[11-Nov-2017 07:21:14 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Error'</p>
+<p>Message : 'Call to protected Core\Model::__construct() from context 'App\Controllers\SeriesController''</p>
+<p>Stack trace: <pre>#0 [internal function]: App\Controllers\SeriesController->episode('learn-mvc-in-ph...', '13')
+#1 C:\xampp\htdocs\mvcproject\Core\Router.php(68): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('series/learn-mv...')
+#3 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php' on line 23</p>
+
+[11-Nov-2017 07:22:55 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Error'</p>
+<p>Message : 'Call to protected Core\Model::__construct() from context 'App\Controllers\SeriesController''</p>
+<p>Stack trace: <pre>#0 [internal function]: App\Controllers\SeriesController->episode('learn-mvc-in-ph...', '13')
+#1 C:\xampp\htdocs\mvcproject\Core\Router.php(68): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('series/learn-mv...')
+#3 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php' on line 23</p>
+
+[11-Nov-2017 07:50:23 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Error'</p>
+<p>Message : 'Call to protected Core\Model::__construct() from context 'App\Controllers\SeriesController''</p>
+<p>Stack trace: <pre>#0 [internal function]: App\Controllers\SeriesController->episode('learn-mvc-in-ph...', '13')
+#1 C:\xampp\htdocs\mvcproject\Core\Router.php(68): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('series/learn-mv...')
+#3 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php' on line 23</p>
+
+[11-Nov-2017 07:50:25 Europe/Berlin] 
+<h1>Fatal error</h1>
+<p>Uncaught exception: 'Error'</p>
+<p>Message : 'Call to protected Core\Model::__construct() from context 'App\Controllers\SeriesController''</p>
+<p>Stack trace: <pre>#0 [internal function]: App\Controllers\SeriesController->episode('learn-mvc-in-ph...', '13')
+#1 C:\xampp\htdocs\mvcproject\Core\Router.php(68): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\mvcproject\public\index.php(10): Core\Router->dispatch('series/learn-mv...')
+#3 {main}</pre></p>
+<p>Thrown in 'C:\xampp\htdocs\mvcproject\App\Controllers\SeriesController.php' on line 23</p>
+
