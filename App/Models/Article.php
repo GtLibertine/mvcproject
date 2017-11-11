@@ -4,7 +4,9 @@ use Core\Model;
 
 class Article extends Model
 {
-    public $tableName = 'articles';
+    public $table = 'articles';
+
+ //   public $tableName = 'articles';
 
 
 

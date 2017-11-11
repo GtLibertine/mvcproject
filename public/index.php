@@ -2,6 +2,7 @@
 
 require "../vendor/autoload.php";
 require "../App/Router.php";
+require "../Core/Database.php";
 
 error_reporting(E_ALL);
 set_error_handler('Core\Error::errorHandler');

@@ -1,8 +1,9 @@
 <?php namespace Core;
+use \Illuminate\Database\Eloquent\Model as Eloquent;
 
-abstract class Model
+abstract class Model extends Eloquent
 {
-    protected $pdo;
+/*    protected $pdo;
     protected $tableName = null;
 
         public function __construct()
@@ -38,7 +39,7 @@ abstract class Model
         $stmt->execute();
         if($stmt->fetch() == false)
             throw new \Exception("{$this->tableName} table not exists");
-    }
+    }*/
 
 
 }

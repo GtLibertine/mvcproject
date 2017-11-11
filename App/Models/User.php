@@ -6,7 +6,9 @@ use PDO;
 class User extends Model
 {
 
-    protected $tableName = 'users';
+    protected $table = 'users';
+
+ /*   protected $tableName = 'users';
 
     public function findUser($id){
 
@@ -14,6 +16,6 @@ class User extends Model
         $stmt->bindParam("id",$id,PDO::PARAM_INT);
         $stmt->execute();
         return $stmt->fetch(PDO::FETCH_OBJ );
-    }
+    }*/
 
 }

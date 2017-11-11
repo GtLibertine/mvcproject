@@ -1,6 +1,7 @@
 {
   "require": {
-    "philo/laravel-blade": "3.*"
+    "philo/laravel-blade": "3.*",
+    "illuminate/database": "^5.4"
   },
   "autoload" : {
     "psr-4" : {
