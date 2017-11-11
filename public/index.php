@@ -1,11 +1,10 @@
 <?php
 
-require "../vendor/autoload.php";
-require "../App/Router.php";
-require "../Core/Database.php";
+require '../bootstrap/autoload.php';
 
 error_reporting(E_ALL);
 set_error_handler('Core\Error::errorHandler');
 set_exception_handler('Core\Error::exceptionHandler');
 
+require "../App/Router.php";
 $router->dispatch($_SERVER["QUERY_STRING"]);
