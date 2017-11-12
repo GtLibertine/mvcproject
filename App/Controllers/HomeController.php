@@ -8,7 +8,9 @@ class HomeController
 {
    public function index()
    {
-       var_dump(User::all());
+     //return env('DB_DATABASE');
+
+    //   var_dump(User::all());
     /*   $user = new User();
        $article = new Article();
          print_r($article->selectAll());
